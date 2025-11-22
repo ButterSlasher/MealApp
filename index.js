@@ -28,8 +28,6 @@ function GetIngredients(meal) {
         }
     }
 
-    console.log(ingredients);
-
     let ingredientsList = "";
 
     for (let i = 0; i < ingredients.length; i++) {
