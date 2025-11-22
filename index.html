@@ -4,21 +4,42 @@
 </head>
 
 <body>
-    <center>
-        <h2 id="recipe">Meal</h2>
+    <h2 id="meal">Meal</h2>
 
-        <img id="thumbnail" src="pngs/Obama.png">
+    <img id="thumbnail">
 
-        <br><br>
+    <br><br>
 
-        <button id="generate" class="but">Generate new</button>
+    <button id="generate" class="but">Generate New</button>
 
-        <br><br>
+    <br><br>
 
-        <select>
-            <option value="Normal">Normal</option>
-        </select>
-    </center>
+    <select id="category">
+        <option value="Beef">Beef</option>
+        <option value="Breakfast">Breakfast</option>
+        <option value="Chicken">Chicken</option>
+        <option value="Dessert">Dessert</option>
+        <option value="Goat">Goat</option>
+        <option value="Lamb">Lamb</option>
+        <option value="Miscellaneous">Misc.</option>
+        <option value="Pasta">Pasta</option>
+        <option value="Pork">Pork</option>
+        <option value="Seafood">Seafood</option>
+        <option value="Side">Side</option>
+        <option value="Starter">Starter</option>
+        <option value="Vegan">Vegan</option>
+        <option value="Vegetarian">Vegetarian</option>
+    </select>
+
+    <div id="tutorial">
+        <h2 style="text-align: center; margin: 20px;">Ingredients:</h2>
+
+        <ol id="ingredients"></ol>
+
+        <h2 style="text-align: center; margin: 20px;">Preparation:</h2>
+
+        <p id="preparation"></p>
+    </div>
 </body>
 
 <script src="index.js"></script>

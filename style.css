@@ -1,4 +1,6 @@
 body {
+    text-align: center;
+
     background-image: url(pngs/Lunch.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -10,11 +12,16 @@ body {
 
     color: white;
 
+    font-family: Consolas, "Arial";
+    
     text-shadow: 3px 3px 3px gray;
 }
 
 #thumbnail {
-    width: 75%;
+    width: 500px;
+    height: 500px;
+
+    background-color: rgba(6, 61, 87, 0.75);
 
     border: 5px;
     border-color: white;
@@ -23,12 +30,12 @@ body {
 }
 
 .but {
-    width: 50%;
-    aspect-ratio: 4 / 1;
-
-    font-size: 6vw;
+    width: 250px;
+    height: 50px;
 
     color: white;
+
+    font-size: 28px;
 
     background-color: rgb(0, 180, 0);
 
@@ -44,4 +51,33 @@ body {
 
 .but:active {
     transform: scale(90%);
+}
+
+#tutorial {
+    margin: 25px auto;
+
+    width: 400px;
+
+
+    color: black;
+
+    background-color: white;
+
+    text-shadow: none;
+
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+#ingredients {
+    margin: 5px;
+
+    text-align: left;
+}
+
+#preparation {
+    margin: 10px;
+
+    text-align: left;
 }
